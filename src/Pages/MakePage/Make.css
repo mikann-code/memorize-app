@@ -1,0 +1,104 @@
+.make{
+  width:500px;
+  margin: 40px auto 0;
+  text-align: center;
+
+  .list{
+    margin:0;
+    background:#e0e5ec;
+    border-radius:20px;
+    box-shadow:10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+    height:180px;
+  }
+
+  .listHeading{
+    padding-top:8px;
+    font-size:24px;
+    font-weight: 500;
+  }
+
+  .listWord{
+    display:flex;
+    width:300px;
+    height:32px;
+    align-items: center;
+    margin:0 auto;
+
+    input{
+      flex:1;
+    }
+  }
+
+  .listContent{
+    display:flex;
+    width:300px;
+    height:80px;
+    align-items: center;
+    margin:0 auto ;
+
+    textarea{
+      flex:1;
+    }
+
+    .handleContent{
+      font-size:28px;
+    }
+  }
+
+  .container{
+    margin-top:20px;
+    display:flex;
+    align-items: center;
+    position:relative;
+    width:100%;
+  }
+
+  .submitButton{
+    margin:0 auto;
+  }
+
+  .createdLists{
+    margin-top:48px;
+    background:#e0e5ec;
+    border-radius:20px;
+    box-shadow:10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+    height:auto;
+  }
+
+  .createdListHeading{
+    margin:0;
+    padding-top:24px;
+    padding-bottom:24px;
+    font-size:24px;
+    font-weight: 500;
+  }
+
+  .createdList{
+    padding:20px;
+    display: flex;
+    position:relative;
+    gap:8px;
+   
+    p{
+      flex:1;
+    }
+  }
+
+  .createdList{
+    border-top:solid black 1px;
+  }
+
+  .deleteButton{
+    position:absolute;
+    top:6px;
+    right:12px;
+    cursor:pointer;
+  }
+}
+
+
+@media(max-width:500px){
+  .make{
+    width: 88vw;
+  }
+}

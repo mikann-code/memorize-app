@@ -1,0 +1,55 @@
+.goal{
+  width:500px;
+  margin:0 auto;
+  text-align: center;
+  margin-top:40px;
+
+  .goalItem{
+    margin-top:32px;
+    padding:20px;
+    background:#e0e5ec;
+    border-radius:20px;
+    box-shadow:10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+    height:auto;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .container{
+    margin:0;
+    padding:0;
+    position:absolute;
+    top:4px;
+    right:12px;
+    display: flex;
+    align-items: center;
+    gap:8px;
+  }
+
+  .icon{
+    cursor:pointer;
+  }
+
+  .restDay{
+    margin:0;
+    padding:0;
+  }
+
+  input{
+    margin-right:8px;
+  }
+
+  h2{
+    font-weight:400;
+  }
+  
+}
+
+@media(max-width:500px){
+  .goal{
+    width: 88vw;
+  }
+}

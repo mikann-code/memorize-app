@@ -1,0 +1,23 @@
+.attention {
+  width: 500px;
+  margin: 40px auto 0;
+  text-align: center;
+  background: #e0e5ec;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+
+  p {
+    margin: 0;
+    padding: 40px;
+  }
+}
+
+@media(max-width:500px) {
+  .attention {
+    width: 88vw;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,93 @@
+.todoList{
+  width:500px;
+  text-align: center;
+  margin:40px auto 0;
+  background:#e0e5ec;
+  border-radius:20px;
+  box-shadow:10px 10px 20px #a3b1c6, -10px -10px 20px #ffffff;
+  height:auto;
+
+  .todoListHeading{
+    margin:0;
+    padding:8px 0 16px;
+    font-size:24px;
+    font-weight: 500;
+  }
+
+  input.inputTodoLocation{
+    height:40px;
+    font-size:16px;
+    text-align: center;
+    margin:0 4px 0 0;
+  }
+
+  .submitButton{
+    height:40px;
+    margin:0 4px 0 4px;
+  }
+
+  .clearTodoButton{
+    height:40px;
+    margin: 0 0 0 12px;
+    cursor:pointer;
+    font-size:32px;
+  }
+
+  .clearTodoButton:hover{
+    color:rgb(242, 62, 92);
+  }
+
+  .todo{
+    display:flex;
+    align-items: center;
+    gap:8px;
+    width:400px;
+    margin:0 auto;
+    justify-content: center;
+  }
+
+  ul{
+    margin:0;
+    padding:24px 0;
+  }
+
+  .todo li{
+    list-style: none;
+    font-size:24px;
+    margin:0;
+    flex-grow: 1; /* テキスト部分を伸縮可能にする */
+  }
+
+  li+li{
+    padding-top:20px;
+  }
+
+  .todo input[type="checkbox"]{
+    font-size:24px;
+    margin:0;
+    padding:0;
+    cursor:pointer;
+  }
+
+  .todo p{
+    font-size:20px;
+    margin:0;
+    padding:0;
+    flex-grow: 1; /* テキスト部分を伸縮可能にする */
+    word-break: break-word;
+  }
+
+  .todo .deleteIcon{
+    cursor: pointer;
+    margin:0;
+    padding:0;
+  }
+
+}
+
+@media(max-width:500px){
+  .todoList{
+    width: 88vw;
+  }
+}
+
