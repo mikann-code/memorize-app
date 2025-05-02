@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# 📚 FlipWord - フリップ式英単語学習 & 学習管理アプリ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**FlipWord** は、受験対策に特化した学習アプリです。英単語暗記に最適な「フリップ式カード」と、学習進捗を管理する「ToDoリスト機能」、さらに自分だけの「QAリスト作成」機能を搭載。生成AIが選定した“入試によく出る単語”で、効率よく学習できます！
 
-## Available Scripts
+## 🧠 主な特徴
 
-In the project directory, you can run:
+- 🎴 **フリップ式英単語カード**  
+  シンプルな操作で、表裏をめくるように単語と意味を記憶！
 
-### `npm start`
+- ✅ **ToDoリストで学習計画を管理**  
+  今日やること、復習項目などをタスク管理。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🤖 **生成AIによる頻出英単語の収集**  
+  自動的に「出やすい単語」を収集し学習リストを生成。
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📝 **QAリスト作成機能**  
+  苦手問題や暗記項目を自分で登録・活用できます。
+  QAリストのpdf化も可能です。
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 使用技術
 
-### `npm run build`
+- Frontend: React / html / css  
+- State管理: React Hooks / useState / useEffect  
+- その他: OpenAI API（ChatGPTなど）※単語生成に使用予定
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 デモURL
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🔗 [https://react-vocabulary-app.web.app](https://react-vocabulary-app.web.app)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
